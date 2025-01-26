@@ -7,7 +7,7 @@
 
 .container-one-background {
     background-color: #1F2937;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 60px;
     padding-left: 128px;
     padding-right: 128px;
@@ -50,11 +50,11 @@ a {
 
 .container-one .content .left {
     max-width: 50%;
-    padding-right: 40px;
+    padding-right: 60px;
 }
 
 .container-one .content img {
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 h1 {
@@ -64,16 +64,87 @@ h1 {
     margin-bottom: 30px;
 }
 
-.container-one p {
+p {
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 40px;
+}
+
+.container-one p {
+    margin-bottom: 50px;
 }
 
 .container-one .content a {
+    
     background-color: #3882F6;
     font-weight: bold;
     border-radius: 5px;;
     padding: 8px 16px;;
 }
 
+.container-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-bottom: 80px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+
+.container-two .content {
+    display: flex;
+    gap: 70px;
+}
+
+.force {
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.container-two img {
+    border-radius: 20px;
+    border: 5px solid #3882F6;
+    margin-bottom: 30px;
+}
+
+.container-two p {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.container-three-background {
+    background-color: #E5E7EB;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 100px;
+}
+
+.container-three .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: light italic;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.container-three .quote-author {
+    font-size: 20px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: flex-end;
+}
